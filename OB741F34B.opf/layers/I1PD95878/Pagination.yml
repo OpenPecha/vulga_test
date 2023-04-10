@@ -1,0 +1,144 @@
+id: 9bb94189cca94f7d92bd442f8bc3ed4e
+annotation_type: Pagination
+revision: '00001'
+annotations:
+  b48f361af2ae4897a0878a5737e02fbd:
+    span:
+      start: 0
+      end: 0
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 1
+    order: null
+    reference: I1PD958780001.jpg
+  2c68497176dc4050a8a2907c47ba9458:
+    span:
+      start: 2
+      end: 1378
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 3
+    order: null
+    reference: I1PD958780003.jpg
+  08dd02904deb480cb7c2c139503911ab:
+    span:
+      start: 1380
+      end: 2743
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 4
+    order: null
+    reference: I1PD958780004.jpg
+  2477ec645e014bd1b24edebdced8d762:
+    span:
+      start: 2745
+      end: 4053
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 8
+    order: null
+    reference: I1PD958780008.jpg
+  f153711979244804a3eaf24a9998b6e8:
+    span:
+      start: 4055
+      end: 5427
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 10
+    order: null
+    reference: I1PD958780010.jpg
+  0444b174843b4e51b91fd355adb6a089:
+    span:
+      start: 5429
+      end: 6787
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 12
+    order: null
+    reference: I1PD958780012.jpg
+  3eba5ec8b6be4cb3b948d47cfc1591aa:
+    span:
+      start: 6789
+      end: 8187
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 13
+    order: null
+    reference: I1PD958780013.jpg
+  2fb8799af09642d2b01f28a36563d14f:
+    span:
+      start: 8189
+      end: 9640
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 14
+    order: null
+    reference: I1PD958780014.jpg
+  441bb459688c49f7a7036fec307b86df:
+    span:
+      start: 9642
+      end: 10993
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 15
+    order: null
+    reference: I1PD958780015.jpg
+  767a4bb02bc648a3aec697f7de49291f:
+    span:
+      start: 10995
+      end: 11892
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 16
+    order: null
+    reference: I1PD958780016.jpg
+  4060341965494a24b44a62611e453788:
+    span:
+      start: 11894
+      end: 11917
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 17
+    order: null
+    reference: I1PD958780017.jpg
+  80db6536a8ce429aa193fe5244a8d7fe:
+    span:
+      start: 11919
+      end: 13226
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 18
+    order: null
+    reference: I1PD958780018.jpg
+  c1814a356ab34248819ca02a40ead690:
+    span:
+      start: 13228
+      end: 14541
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 19
+    order: null
+    reference: I1PD958780019.jpg
+  4fd5f09b7043430c8aebddbea8499edc:
+    span:
+      start: 14543
+      end: 14589
+      errors: null
+    metadata: null
+    page_info: null
+    imgnum: 20
+    order: null
+    reference: I1PD958780020.jpg
