@@ -28,6 +28,7 @@ jobs:
     - name: Create vulgate text
       run: |
         from openpecha.core.ids import get_open_pecha_id
+        from openpecha.core.pecha import OpenPechaFS
         from pathlib import Path
         from vulgatizer.vulgatizer_op_ocr import VulgatizerOPTibOCR
         def run_vulgatizer(witness_dir):
