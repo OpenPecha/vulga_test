@@ -1,0 +1,13 @@
+id: I0003
+imported: 2023-04-07 22:05:31.339324
+last_modified: 2023-04-07 22:05:31.339337
+source_metadata:
+  pub_name: NT
+bases:
+  EF79:
+    source_metadata: {}
+    order: 1
+    base_file: EF79.txt
+copyright:
+  status: Unknown
+  notice: ''

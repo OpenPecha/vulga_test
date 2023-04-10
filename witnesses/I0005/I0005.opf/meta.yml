@@ -1,0 +1,13 @@
+id: I0005
+imported: 2023-04-07 22:05:31.374900
+last_modified: 2023-04-07 22:05:31.374912
+source_metadata:
+  pub_name: STH
+bases:
+  EF79:
+    source_metadata: {}
+    order: 1
+    base_file: EF79.txt
+copyright:
+  status: Unknown
+  notice: ''
