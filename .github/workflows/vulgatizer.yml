@@ -1,0 +1,56 @@
+name: merger
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+jobs:
+  vulgatizer:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.8"
+        
+    - name: Install dependencies
+      run: |
+        pip install -U pip
+        pip install python-dateutil
+        pip install git+https://github.com/OpenPecha/vulgatizer.git
+    - name: Create vulgate text
+      run: |
+        from openpecha.core.ids import get_open_pecha_id
+        from pathlib import Path
+        from vulgatizer.vulgatizer_op_ocr import VulgatizerOPTibOCR
+        def run_vulgatizer(witness_dir):
+          pecha_id = get_open_pecha_id()
+          vulga_opf_path = Path(f'./{pecha_id}.opf')
+          try:
+            witness_opf_paths = list(witness_dir.iterdir())
+          except:
+            print('witness directory doesn't exist')
+            return None
+          witness_opf_paths.sort()
+          op_output = OpenPechaFS(vulgate_opf_path)
+          vulgatizer = VulgatizerOPTibOCR(op_output)
+          for witness_opf_path in witness_opf_paths:
+              witness_opf_path = witness_opf_path / f"{witness_opf_path.stem}.opf"
+              vulgatizer.add_op_witness(OpenPechaFS(witness_opf_path))
+          vulgatizer.create_vulgate()
+          return vulga_opf_path
+        witness_dir = Path('./witnesses')
+        run_vulgatizer(witness_dir)
+      shell: python
+
+    - name: Git Auto Commit
+      uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      with:
+        commit_message: Added or updated review dir
