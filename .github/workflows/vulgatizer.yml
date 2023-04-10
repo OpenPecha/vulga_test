@@ -40,7 +40,7 @@ jobs:
             print("witness directory doesn't exist")
             return None
           witness_opf_paths.sort()
-          op_output = OpenPechaFS(vulgate_opf_path)
+          op_output = OpenPechaFS(vulga_opf_path)
           vulgatizer = VulgatizerOPTibOCR(op_output)
           for witness_opf_path in witness_opf_paths:
               witness_opf_path = witness_opf_path / f"{witness_opf_path.stem}.opf"
