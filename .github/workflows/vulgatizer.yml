@@ -33,7 +33,7 @@ jobs:
         from vulgatizer.vulgatizer_op_ocr import VulgatizerOPTibOCR
         def run_vulgatizer(witness_dir):
           pecha_id = get_open_pecha_id()
-          vulga_opf_path = Path(f'./{pecha_id}.opf')
+          vulga_opf_path = Path(f'./vulga/{pecha_id}.opf')
           try:
             witness_opf_paths = list(witness_dir.iterdir())
           except:
