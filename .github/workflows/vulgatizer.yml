@@ -36,7 +36,7 @@ jobs:
           try:
             witness_opf_paths = list(witness_dir.iterdir())
           except:
-            print('witness directory doesn't exist')
+            print("witness directory doesn't exist")
             return None
           witness_opf_paths.sort()
           op_output = OpenPechaFS(vulgate_opf_path)
